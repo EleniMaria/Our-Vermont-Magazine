@@ -1,0 +1,146 @@
+.sr-only {
+  display: none;
+}
+
+.VermontMagazines:hover {
+  color: #5a8565;
+}
+
+.current {
+  padding: 2rem 0;
+}
+
+.hide {
+  display: none
+}
+
+;
+
+.iframe-container {
+  position: relative;
+  max-height: 90vh;
+  /* set responsive aspect ratio here for iframe container */
+  padding-bottom: 105%;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 2rem 0 1rem 0;
+  border-top: 1px solid #c3c3c3;
+}
+
+.item_heading {
+  font-size: 1rem;
+}
+
+.previous {
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prev-issues {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.prev-issues .issue {
+  flex: 0 0 200px;
+  padding: 1rem;
+  border: 1px silver solid;
+  text-align: center;
+  box-shadow: none;
+  transition: all 200ms ease-in-out;
+}
+
+.prev-issues .issue:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  color: #003366;
+}
+
+.prev-issues .issue ul {
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.prev-issues .issue li {
+  margin-bottom: 0.5em;
+}
+
+
+body {
+  background-color: antiquewhite;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: #A83121;
+  /* text-decoration: none; */
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 5px;
+
+  /* Position the tooltip */
+  position: top;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.size_of_img {
+  width: 240px
+}
+header{
+  text-align: center;
+  padding: 5px;
+  background-color:#5a8565;
+  color: #000;
+}
+.footer {
+  text-align: center;
+  padding: 5px;
+  background-color:#5a8565;
+  color: #000;
+}
+
+.footer-links a {
+  color:blue ;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+ color: #A83121;
+}
