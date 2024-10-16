@@ -11,10 +11,8 @@
 }
 
 .hide {
-  display: none
+  display: none;
 }
-
-;
 
 .iframe-container {
   position: relative;
@@ -80,7 +78,6 @@
 .prev-issues .issue li {
   margin-bottom: 0.5em;
 }
-
 
 body {
   background-color: antiquewhite;
