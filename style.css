@@ -8,6 +8,38 @@
 
 .current {
   padding: 2rem 0;
+  text-align: center;
+}
+
+.current-issues {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.current-issues .issue {
+  flex: 0 0 200px;
+  padding: 1rem;
+  border: 1px silver solid;
+  text-align: center;
+  box-shadow: none;
+  transition: all 200ms ease-in-out;
+}
+
+.current-issues .issue:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  color: #003366;
+}
+
+.current-issues .issue ul {
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.current-issues .issue li {
+  margin-bottom: 0.5em;
 }
 
 .hide {
