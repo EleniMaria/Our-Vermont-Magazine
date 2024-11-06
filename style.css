@@ -6,42 +6,6 @@
   color: #5a8565;
 }
 
-.current {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.current-issues {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.current-issues .issue {
-  flex: 0 0 200px;
-  padding: 1rem;
-  border: 1px silver solid;
-  text-align: center;
-  box-shadow: none;
-  transition: all 200ms ease-in-out;
-}
-
-.current-issues .issue:hover {
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  transform: translateY(-3px);
-  color: #003366;
-}
-
-.current-issues .issue ul {
-  margin: 1em 0 0 0;
-  padding: 0;
-}
-
-.current-issues .issue li {
-  margin-bottom: 0.5em;
-}
-
 .hide {
   display: none;
 }
@@ -73,6 +37,42 @@
 
 .item_heading {
   font-size: 1rem;
+}
+
+.current {
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.current-issues {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20 px;
+  justify-content: center;
+}
+
+.current-issues .issue {
+  flex: 0 0 200px;
+  padding: 1rem;
+  border: 1px silver solid;
+  text-align: center;
+  box-shadow: none;
+  transition: all 200ms ease-in-out;
+}
+
+.current-issues .issue:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  color: #003366;
+}
+
+.current-issues .issue ul {
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+.current-issues .issue li {
+  margin-bottom: .5em;
 }
 
 .previous {
@@ -151,25 +151,28 @@ a:hover {
 .size_of_img {
   width: 240px
 }
-header{
+
+header {
   text-align: center;
   padding: 5px;
-  background-color:#5a8565;
+  background-color: #5a8565;
   color: #000;
 }
+
 .footer {
   text-align: center;
   padding: 5px;
-  background-color:#5a8565;
+  background-color: #5a8565;
   color: #000;
 }
 
 .footer-links a {
-  color:blue ;
+  color: blue;
   text-decoration: none;
   margin-right: 15px;
   transition: color 0.3s ease;
 }
+
 .footer-links a:hover {
- color: #A83121;
+  color: #A83121;
 }
