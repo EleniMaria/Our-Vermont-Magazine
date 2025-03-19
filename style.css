@@ -32,6 +32,8 @@
   text-align: center;
   font-size: 1.25rem;
   padding: 2rem 0 1rem 0;
+  
+  /* Horiziontal Lines */
   border-top: 1px solid #c3c3c3;
 }
 
@@ -149,7 +151,8 @@ a:hover {
 }
 
 .size_of_img {
-  width: 240px
+  width: 240px;
+  height: 320px;
 }
 
 header {
@@ -161,9 +164,10 @@ header {
 
 .footer {
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   background-color: #5a8565;
   color: #000;
+  border-top: 1px solid black;
 }
 
 .footer-links a {
